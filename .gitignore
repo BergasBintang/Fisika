@@ -1,0 +1,11 @@
+# Mengabaikan semua file PDF
+*.pdf
+
+# Mengabaikan semua file Jupyter
+*.ipynb
+
+# Mengabaikan semua file diagram Draw.io
+*.drawio
+
+# Mengabaikan file Fisika.code-workspace
+Fisika.code-workspace

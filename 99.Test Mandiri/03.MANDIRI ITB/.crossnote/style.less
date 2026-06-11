@@ -1,0 +1,26 @@
+@media print {
+    @page {
+        size: A4;
+        margin: 3cm 1cm 2cm 1cm;
+        
+            /* Langsung definisikan header di sini, tidak perlu div di file .md */
+            @top-center {
+                content: "Bimbingan Belajar Quantum Research";
+                font-size: 16pt;
+            }
+
+            /* Footer Kiri: Nama Modul */
+            @bottom-left {
+                content: "Persiapan MANDIRI ITB";
+                font-size: 8pt;
+                color: #888;
+            }
+
+            /* Footer Kanan: Nomor Halaman */
+            @bottom-right {
+                content: "Halaman " counter(page) " dari " counter(pages);
+                font-size: 8pt;
+                color: #888;
+            }
+    }
+}
